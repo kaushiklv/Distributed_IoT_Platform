@@ -1,0 +1,32 @@
+
+ 17/04/2018 04:18:26.98 HeartBeatQueue: platform_monitoringQueue
+ 17/04/2018 04:18:26.121 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 17/04/2018 04:18:26.693  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 17/04/2018 04:18:36.737 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 17/04/2018 04:18:36.871  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 17/04/2018 04:18:46.903 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 17/04/2018 04:18:46.991  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 17/04/2018 04:18:57.18 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 17/04/2018 04:18:57.75  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 17/04/2018 04:19:07.104 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 17/04/2018 04:19:07.274  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 17/04/2018 04:19:17.312 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 17/04/2018 04:19:17.375  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 17/04/2018 04:19:27.407 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 17/04/2018 04:19:27.512  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 01/05/2018 22:06:41.255 HeartBeatQueue: platform_monitoringQueue
+ 01/05/2018 22:06:41.591 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 01/05/2018 22:06:43.818  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 01/05/2018 22:06:53.893 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 01/05/2018 22:06:54.72  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 01/05/2018 22:07:04.101 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 01/05/2018 22:07:04.239  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 02/05/2018 15:50:51.542 HeartBeatQueue: platform_monitoringQueue
+ 02/05/2018 15:50:51.592 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 02/05/2018 15:50:52.149  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 02/05/2018 15:51:02.166 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 02/05/2018 15:51:02.194  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 02/05/2018 15:51:12.206 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 02/05/2018 15:51:12.236  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'
+ 02/05/2018 15:51:22.245 HeartBeatMessage: platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password
+ 02/05/2018 15:51:22.258  [x] Sent 'platform##platform##192.168.1.106##Platform_LoadBalancer##instance1##kaushik##password'

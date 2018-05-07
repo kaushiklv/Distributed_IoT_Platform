@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>	
+	
+	<workflows>
+		<workflow>
+			<workflowId>highBPWorkflow</workflowId>
+			<workflowName>highBPWorkflow</workflowName>
+			<workflowFileName>highBPWorkflow.wf</workflowFileName>
+		</workflow>
+		
+		<workflow>
+			<workflowId>checkHeartBeatWorkflow</workflowId>
+			<workflowName>checkHeartBeatWorkflow</workflowName>
+			<workflowFileName>checkHeartBeatWorkflow.wf</workflowFileName>
+		</workflow>
+	</workflows>
+	
+</application>

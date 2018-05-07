@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>
+	
+	
+	<sensorTypes>
+		<sensorType>
+			<sensorTypeId>Vitals</sensorTypeId>
+			<sensorName>BP</sensorName>
+			<sensorId>bp1</sensorId>
+		</sensorType>
+	</sensorTypes>
+	
+	<events>
+		<event>
+			<eventTypeName>Pattern</eventTypeName>
+			<eventSensorId>1</eventSensorId>
+			<eventName>consec5high</eventName>
+		</event>
+		<event>
+			<eventTypeName>Threshold</eventTypeName>
+			<eventSensorId>2</eventSensorId>
+			<eventName>gt500</eventName>
+		</event>
+	</events>
+	
+	<actions>
+		<action>
+			<eventId>1</eventId>
+			<sensorActionId>bp1</sensorActionId>
+			<workflowFile></workflowFile>
+			<actionJarLocation>/mnt/nfs-share/HealthCare/healthcare.jar</actionJarLocation>
+			<classDescription>AppImplementation</classDescription>
+			<location>GATEWAY</location>
+		</action>
+		<action>
+			<eventId>1</eventId>
+			<sensorActionId>bp1</sensorActionId>
+			<workflowFile></workflowFile>
+			<actionJarLocation>/mnt/nfs-share/HealthCare/healthcare.jar</actionJarLocation>
+			<classDescription>AppImplementation</classDescription>
+			<location>INTERMEDIATE SERVER</location>
+		</action>
+		
+		<action>
+			<eventId>2</eventId>
+			<sensorActionId>hb1</sensorActionId>
+			<workflowFile></workflowFile>
+			<actionJarLocation>/mnt/nfs-share/HealthCare/healthcare.jar</actionJarLocation>
+			<classDescription>AppImplementation</classDescription>
+			<location>GATEWAY</location>
+		</action>
+		<action>
+			<eventId>2</eventId>
+			<sensorActionId>hb1</sensorActionId>
+			<workflowFile></workflowFile>
+			<actionJarLocation>/mnt/nfs-share/HealthCare/healthcare.jar</actionJarLocation>
+			<classDescription>AppImplementation</classDescription>
+			<location>INTERMEDIATE SERVER</location>
+		</action>
+	</actions>
+	
+	
+</application>
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

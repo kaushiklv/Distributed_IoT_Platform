@@ -1,0 +1,4 @@
+low-sensor#Honeywell123-event#2
+medium-sensor#Honeywell234-rule#1-service#2
+high-sensor#Nikon123-rule#1-service#2
+low-sensor#Nikon234-event#1

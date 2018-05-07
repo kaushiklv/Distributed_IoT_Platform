@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>
+	
+	<services>
+		<service>
+			<serviceId>2</serviceId>
+			<serviceName>checkbp</serviceName>
+			<serviceJarName>checkbp.py</serviceJarName>
+			<dependencies>json.jar</dependencies>
+			<input>INTEGER#INTEGER</input>
+			<output>BOOLEAN</output>
+			<className>BPHighService</className>
+			<methodName>run</methodName>
+			<instances>4</instances>
+		</service>
+		<service>
+			<serviceId>1</serviceId>
+			<serviceName>IsDiabetic</serviceName>
+			<serviceJarName>IsDiabetic.jar</serviceJarName>
+			<dependencies>json.jar</dependencies>
+			<input>INTEGER#INTEGER</input>
+			<output>BOOLEAN</output>
+			<className>IsDiabetic</className>
+			<methodName>run</methodName>
+			<instances>4</instances>
+		</service>
+		<service>
+			<serviceId>3</serviceId>
+			<serviceName>CheckHeartBeat</serviceName>
+			<serviceJarName>CheckHeartBeat.jar</serviceJarName>
+			<dependencies>json.jar</dependencies>
+			<input>INTEGER#INTEGER</input>
+			<output>BOOLEAN</output>
+			<className>CheckHeartBeat</className>
+			<methodName>run</methodName>
+			<instances>4</instances>
+		</service>
+	</services>
+	
+</application>

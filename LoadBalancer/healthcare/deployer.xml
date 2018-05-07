@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>
+
+	<apps>
+		<app>
+			<appName>BP App</appName>
+			<sensitivity>Medium</sensitivity>
+		</app>
+
+		<app>
+			<appName>Analytics App</appName>
+			<sensitivity>Low</sensitivity>
+		</app>
+
+		<app>
+			<appName>Heart Beat App</appName>
+			<sensitivity>High</sensitivity>
+		</app>
+	</apps>	
+	
+</application>
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

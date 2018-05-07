@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>
+	
+	<rules>
+		<rule>
+			<ruleId>1</ruleId>
+			<ruleName>UPPER</ruleName>
+			<noOfParams>1</noOfParams>
+		</rule>
+		<rule>
+			<ruleId>2</ruleId>
+			<ruleName>LOWER</ruleName>
+			<noOfParams>1</noOfParams>
+		</rule>
+		<rule>
+			<ruleId>3</ruleId>
+			<ruleName>BETWEEN</ruleName>
+			<noOfParams>2</noOfParams>
+		</rule>
+		<rule>
+			<ruleId>4</ruleId>
+			<ruleName>EQUAL</ruleName>
+			<noOfParams>1</noOfParams>
+		</rule>
+	</rules>	
+	
+</application>

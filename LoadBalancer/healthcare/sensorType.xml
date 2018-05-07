@@ -1,0 +1,17 @@
+<!-- 
+File to describe all sensor types
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>
+	
+	<sensorTypes>
+		<sensorType>GenericTemperature</sensorType>
+		<sensorType>GenericHealth</sensorType>
+	</sensorTypes>	
+	
+</application>

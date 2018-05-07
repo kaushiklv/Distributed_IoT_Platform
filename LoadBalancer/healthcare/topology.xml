@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>
+	
+	<gateways>
+		<gateway>
+			<gatewayId>1</gatewayId>
+			<ip>192.168.1.105</ip>
+			<port>8080</port>
+			<username>harshit</username>
+			<password>ietshiv2013</password>
+			<sensors>
+				<sensorId>Honeywell123</sensorId>
+				<sensorId>Honeywell234</sensorId>
+				<sensorId>Nikon123</sensorId>
+			</sensors>					
+		</gateway>
+	</gateways>
+
+	<intermediateServers>
+		<intermediateServer>
+			<ip>192.168.1.105</ip>
+			<port>8080</port>
+			<username>avinash</username>
+			<password>winter@Leh</password>
+		</intermediateServer>
+	</intermediateServers>
+	
+</application>
