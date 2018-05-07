@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>
+	
+	<sensors>
+		<sensor>
+			<sensorId>Honeywell123</sensorId>
+			<sensorName>Honeywell123</sensorName>
+			<sensorType>GenericTemperature</sensorType>
+			<sensorJarName>HoneyWell.jar</sensorJarName>
+			<sensorClassName>HoneyWell</sensorClassName>
+		</sensor>
+
+		<sensor>
+			<sensorId>Honeywell234</sensorId>
+			<sensorName>Honeywell234</sensorName>
+			<sensorType>GenericHealth</sensorType>
+			<sensorJarName>Nikon.jar</sensorJarName>
+			<sensorClassName>Nikon</sensorClassName>
+		</sensor>
+		
+		<sensor>
+			<sensorId>Nikon123</sensorId>
+			<sensorName>Nikon234</sensorName>
+			<sensorType>GenericHealth</sensorType>
+			<sensorJarName>Sony.jar</sensorJarName>
+			<sensorClassName>Sony</sensorClassName>
+		</sensor>
+	</sensors>
+
+</application>

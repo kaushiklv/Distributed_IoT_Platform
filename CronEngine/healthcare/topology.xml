@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>
+	
+	<gateways>
+		<gateway>
+			<gatewayId>1</gatewayId>
+			<ip>192.168.1.120</ip>
+			<port>8080</port>
+			<username>vagrant</username>
+			<password>vagrant</password>
+			<sensors>
+				<sensorId>Honeywell123</sensorId>
+				<sensorId>Honeywell234</sensorId>
+				<sensorId>Nikon123</sensorId>
+			</sensors>					
+		</gateway>
+		<gateway>
+			<gatewayId>2</gatewayId>
+			<ip>192.168.1.120</ip>
+			<port>8080</port>
+			<username>vagrant</username>
+			<password>vagrant</password>
+			<sensors>
+				<sensorId>Honeywell123</sensorId>
+				<sensorId>Honeywell234</sensorId>
+				<sensorId>Nikon123</sensorId>
+			</sensors>					
+		</gateway>
+		<gateway>
+			<gatewayId>3</gatewayId>
+			<ip>192.168.1.120</ip>
+			<port>8080</port>
+			<username>vagrant</username>
+			<password>vagrant</password>
+			<sensors>
+				<sensorId>Honeywell123</sensorId>
+				<sensorId>Honeywell234</sensorId>
+				<sensorId>Nikon123</sensorId>
+			</sensors>					
+		</gateway>
+	</gateways>
+
+	<intermediateServers>
+		<intermediateServer>
+			<intermediateServerId>1</intermediateServerId>
+			<gatewaysIs>
+				<gatewayId>1</gatewayId>
+				<gatewayId>2</gatewayId>
+				<gatewayId>3</gatewayId>
+			</gatewaysIs>	
+			<ip>192.168.1.121</ip>
+			<port>8080</port>
+			<username>vagrant</username>
+			<password>vagrant</password>
+		</intermediateServer>
+	</intermediateServers>
+	
+	
+</application>
