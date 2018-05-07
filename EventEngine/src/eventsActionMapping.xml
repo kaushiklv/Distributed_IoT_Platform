@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>
+
+	<events>
+		<event>
+			<eventID>1</eventID>
+			<rules>
+				<rule>
+					<ruleMID>1</ruleMID>				
+				</rule>
+				<rule>
+					<ruleMID>2</ruleMID>				
+				</rule>
+				<rule>
+					<ruleMID>3</ruleMID>				
+				</rule>
+			</rules>
+			<action>
+				<serviceid>1</serviceid>
+				<workflowid>checkHeartBeatWorkflow</workflowid>
+			</action>
+		</event>
+		<event>
+			<eventID>2</eventID>
+			<rules>
+				<rule>
+					<ruleMID>2</ruleMID>				
+				</rule>
+				<rule>
+					<ruleMID>3</ruleMID>				
+				</rule>
+			</rules>
+			<action>
+				<serviceid>2</serviceid>
+				<workflowid>highBPWorkflow</workflowid>
+			</action>
+		</event>
+
+	</events>
+
+</application>

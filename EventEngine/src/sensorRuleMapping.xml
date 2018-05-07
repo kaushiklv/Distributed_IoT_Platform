@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>
+	
+	<rules>
+		<rule>
+			<ruleMID>1</ruleMID>
+			<ruleId>1</ruleId>
+			<sensorName>HoneyWell123</sensorName>
+			<dataType>INT</dataType>
+			<threshold>10</threshold>			
+		</rule>
+
+		<rule>
+			<ruleMID>2</ruleMID>
+			<ruleId>2</ruleId>
+			<sensorName>HoneyWell234</sensorName>
+			<dataType>String</dataType>	
+			<threshold>20</threshold>		
+		</rule>
+		
+		<rule>
+			<ruleMID>3</ruleMID>
+			<ruleId>1</ruleId>
+			<sensorName>Nikon123</sensorName>
+			<dataType>String</dataType>	
+			<threshold>30</threshold>		
+		</rule>
+		
+		<rule>
+			<ruleMID>4</ruleMID>
+			<ruleId>1</ruleId>
+			<sensorName>Nikon234</sensorName>
+			<dataType>String</dataType>	
+			<threshold>40</threshold>		
+		</rule>
+	</rules>
+	
+</application>
