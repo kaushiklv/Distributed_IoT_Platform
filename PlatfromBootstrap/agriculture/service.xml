@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>3456</id>
+		<name>agriculture</name>
+	</appInfo>
+	
+	<services>
+		<service>
+			<serviceId>1</serviceId>
+			<serviceName>Moisture</serviceName>
+			<serviceJarName>Moisture.jar</serviceJarName>
+			<dependencies>json.jar</dependencies>
+			<input>INTEGER</input>
+			<output>BOOLEAN</output>
+			<className>Moisture</className>
+			<methodName>run</methodName>
+			<instances>2</instances>
+		</service>
+		<service>
+			<serviceId>2</serviceId>
+			<serviceName>Rainfall</serviceName>
+			<serviceJarName>Rainfall.jar</serviceJarName>
+			<dependencies>json.jar</dependencies>
+			<input>INTEGER</input>
+			<output>BOOLEAN</output>
+			<className>Rainfall</className>
+			<methodName>run</methodName>
+			<instances>2</instances>
+		</service>
+		<service>
+			<serviceId>4</serviceId>
+			<serviceName>sendMail</serviceName>
+			<serviceJarName>sendMail.jar</serviceJarName>
+			<dependencies>json.jar</dependencies>
+			<input>INTEGER#INTEGER</input>
+			<output>BOOLEAN</output>
+			<className>sendMail</className>
+			<methodName>run</methodName>
+			<instances>4</instances>
+		</service>
+		<service>
+			<serviceId>5</serviceId>
+			<serviceName>sendSms</serviceName>
+			<serviceJarName>sendSms.jar</serviceJarName>
+			<dependencies>json.jar</dependencies>
+			<input>INTEGER#INTEGER</input>
+			<output>BOOLEAN</output>
+			<className>sendSms</className>
+			<methodName>run</methodName>
+			<instances>4</instances>
+		</service>
+	</services>
+	
+</application>

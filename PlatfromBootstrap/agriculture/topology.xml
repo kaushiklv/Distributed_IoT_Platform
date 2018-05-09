@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>3456</id>
+		<name>agriculture</name>
+	</appInfo>
+	
+	<gateways>
+		<gateway>
+			<gatewayId>1</gatewayId>
+			<ip>192.168.1.101</ip>
+			<port>8080</port>
+			<username>vagrant</username>
+			<password>vagrant</password>
+			<sensors>
+				<sensorId>Soil123</sensorId>
+				<sensorId>Rain234</sensorId>
+			</sensors>					
+		</gateway>
+		<gateway>
+			<gatewayId>2</gatewayId>
+			<ip>192.168.1.102</ip>
+			<port>8080</port>
+			<username>vagrant</username>
+			<password>vagrant</password>
+			<sensors>
+				<sensorId>Soil123</sensorId>
+				<sensorId>Rain234</sensorId>
+			</sensors>					
+		</gateway>
+	</gateways>
+
+	<intermediateServers>
+		<intermediateServer>
+			<intermediateServerId>1</intermediateServerId>
+			<gatewaysIs>
+				<gatewayId>1</gatewayId>
+				<gatewayId>2</gatewayId>
+			</gatewaysIs>	
+			<ip>192.168.1.107</ip>
+			<port>8080</port>
+			<username>vagrant</username>
+			<password>vagrant</password>
+		</intermediateServer>
+	</intermediateServers>
+	
+	
+</application>

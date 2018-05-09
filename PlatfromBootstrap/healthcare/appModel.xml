@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<appInfo>
+		<id>1234</id>
+		<name>healthcare</name>
+	</appInfo>
+	
+	<apps>
+		<app>
+			<appName>BP App</appName>
+			<artifacts>
+				<artifactName>highBPWorkflow.wf</artifactName>
+				<artifactName>checkHeartBeatWorkflow.wf</artifactName>
+				<artifactName>BPHighService.py</artifactName>
+				<artifactName>CheckHeartBeat.jar</artifactName>
+				<artifactName>streamingRulesGateway.txt</artifactName>
+				<artifactName>cron_is.xml</artifactName>
+			</artifacts>
+			
+			<events>
+				<event>BPEvent</event>
+			</events>
+				
+		</app>
+		<app>
+			<appName>Heart Beat App</appName>
+			<artifacts>
+				<artifactName>checkHeartBeatWorkflow.wf</artifactName>
+				<artifactName>IsDiabetic.jar</artifactName>
+				<artifactName>CheckHeartBeat.jar</artifactName>
+				<artifactName>streamingRulesIS.txt</artifactName>
+				<artifactName>cron_gateway.xml</artifactName>
+			</artifacts>
+			<events>
+				<event>HeartBeatEvent</event>
+			</events>
+		</app>
+		
+		<app>
+			<appName>Analytics App</appName>
+			<artifacts>
+				<artifactName>checkHeartBeatWorkflow.wf</artifactName>
+				<artifactName>BPHighService.py</artifactName>
+				<artifactName>IsDiabetic.jar</artifactName>
+				<artifactName>CheckHeartBeat.jar</artifactName>
+				<artifactName>streamingRulesIS.txt</artifactName>
+				<artifactName>cron_cs.xml</artifactName>
+			</artifacts>
+			<events>
+				<event>AnalyticsEvent</event>
+			</events>
+		</app>
+	</apps>	
+	
+</application>
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
