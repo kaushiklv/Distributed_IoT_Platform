@@ -10,6 +10,9 @@ public class Topology {
 	public AppData getAppInfo() {
 		return appInfo;
 	}
+	public void setVal() {
+		int val=26;
+	}
 	public void setAppInfo(AppData appInfo) {
 		this.appInfo = appInfo;
 	}
