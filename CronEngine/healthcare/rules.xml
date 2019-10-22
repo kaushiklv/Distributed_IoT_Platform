@@ -26,6 +26,16 @@
 			<ruleName>EQUAL</ruleName>
 			<noOfParams>1</noOfParams>
 		</rule>
+		<rule>
+			<ruleId>5</ruleId>
+			<ruleName>NOT-IN</ruleName>
+			<noOfParams>2</noOfParams>
+		</rule>
+		<rule>
+			<ruleId>6</ruleId>
+			<ruleName>NOT-EQUAL</ruleName>
+			<noOfParams>1</noOfParams>
+		</rule>
 	</rules>	
 	
 </application>
